@@ -6,4 +6,5 @@ fun main() {
 
     println(benar)
     println(salah)
+
 }

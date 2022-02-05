@@ -6,5 +6,5 @@ fun sayHello(firstname: String, lastName: String = "") {
 
 fun main() {
     sayHello("Roynaldi")
-    sayHello("Jaka", "Satria")
+    sayHello("Eko", "Khanedy")
 }

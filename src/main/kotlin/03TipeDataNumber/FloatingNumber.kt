@@ -6,5 +6,4 @@ fun main() {
 
     println(angka1)
     println(angka2)
-
 }

@@ -1,7 +1,6 @@
 package `06TipeDataString`
 
 fun main() {
-
     val firstName: String = "Roynaldi"
     val lastName: String = "Kidd"
     val address: String = """

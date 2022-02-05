@@ -1,6 +1,7 @@
 package `07Variable`
 
-const val APP = "Android Doa"
+// constant bersifat global bisa diakse dari manapun
+const val APP = "ARTS APP"
 const val VERSION = "1.2"
 
 fun main() {

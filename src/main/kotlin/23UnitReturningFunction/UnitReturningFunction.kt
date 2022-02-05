@@ -1,9 +1,8 @@
 package `23UnitReturningFunction`
 
 
-fun printHello() {
+fun printHello(): Unit {
     println("Hello")
-
 }
 
 fun main() {

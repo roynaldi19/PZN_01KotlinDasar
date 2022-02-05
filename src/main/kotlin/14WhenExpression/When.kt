@@ -1,14 +1,14 @@
 package `14WhenExpression`
 
 fun main() {
-    val finalExam = 'Z'
+    val finalExam = 'B'
 
     when (finalExam) {
-        'A' -> println("Amazing")
-        'B' -> println("Good")
-        'C' -> println("Not Bad")
-        'D' -> println("Bad")
-        'E' -> println("Try Again Next Years")
+        'A', 'B' -> println("Amazing")
+        'C' -> println("Good")
+        'D' -> println("Not Bad")
+        'E' -> println("Bad")
+        'F' -> println("Try Again Next Years")
         else -> println("Ups")
     }
 }

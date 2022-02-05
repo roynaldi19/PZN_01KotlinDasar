@@ -4,6 +4,7 @@ fun main() {
     fun helloworld() {
 
     }
+
     helloworld() // hanya bisa diakses dari dalam function indukny
 }
 

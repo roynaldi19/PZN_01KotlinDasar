@@ -1,12 +1,12 @@
 package `25SingleExpressionFunction`
 
-fun kaliDua(a: Int): Int = a * 2
+fun double(a: Int): Int = a * 2
 
-fun sapa(name: String) = println("Hello $name")
+fun hello(name: String) = println("Hello $name")
 
 fun main() {
-    val hasilKaliDua = kaliDua(1)
-    println(hasilKaliDua)
+    val kaliDua = double(1)
+    println(kaliDua)
 
-    sapa("Roy")
+    hello("Roy")
 }

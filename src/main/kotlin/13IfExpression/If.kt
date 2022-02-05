@@ -1,7 +1,7 @@
 package `13IfExpression`
 
 fun main() {
-    val nilai = 90
+    val nilai = 65
 
     if (nilai > 90) {
         println("Cool")

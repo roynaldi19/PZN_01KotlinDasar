@@ -1,8 +1,9 @@
 package `09TipeDataRange`
 
 fun main() {
-    val range3 = 0..1000 step 10
-    println(range3.step)
-    println(range3.first)
-    println(range3.last)
+    val range = 0..100 step 10
+
+    println(range.step)
+    println(range.first)
+    println(range.last)
 }

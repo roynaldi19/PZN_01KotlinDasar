@@ -6,7 +6,7 @@ fun main() {
 
     val lulusUjian = nilaiUjian > 75
     val lulusAbsen = nilaiAbsen > 75
-
     val lulusMatakuliah = lulusUjian && lulusAbsen
+
     println("Kamu lulus ujian : $lulusMatakuliah")
 }

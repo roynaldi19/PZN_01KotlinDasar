@@ -8,7 +8,7 @@ fun main() {
         i++
 
         if (i > 100) {
-            break
+            break // menghentikan perulangan
         }
     }
 }

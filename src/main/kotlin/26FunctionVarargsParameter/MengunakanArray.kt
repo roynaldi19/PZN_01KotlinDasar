@@ -1,7 +1,6 @@
 package `26FunctionVarargsParameter`
 
-// varagrs harus menjadi paramter paling belakang
-fun hitungTotal(vararg values: Int ): Int {
+fun hitungTotal(values: ArrayList<Int>): Int {
     var total = 0
 
     for (value in values) {
@@ -11,7 +10,7 @@ fun hitungTotal(vararg values: Int ): Int {
 }
 
 fun main() {
-    val result = hitungTotal(10,10,10,10)
+    val values = arrayListOf(10,10,10,10)
+    val result = hitungTotal(values)
     println(result)
 }
-

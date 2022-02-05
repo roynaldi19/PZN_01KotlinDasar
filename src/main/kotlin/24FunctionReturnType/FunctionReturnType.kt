@@ -1,11 +1,10 @@
 package `24FunctionReturnType`
 
-fun jumlahkan(angka1: Int, angka2: Int): Int {
-    val total = angka1 + angka2
-    return total
+fun sum(angka1: Int, angka2: Int): Int {
+    return angka1 + angka2
 }
 
 fun main() {
-    val hasil = jumlahkan(200, 200)
+    val hasil = sum(200, 200)
     println(hasil)
 }

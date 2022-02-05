@@ -1,4 +1,4 @@
-package `15ForLoop`
+package `15ForLoops`
 
 fun main() {
     for (i in 0..10) {

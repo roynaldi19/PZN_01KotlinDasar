@@ -6,7 +6,6 @@ fun main() {
     val telpon: Int = 1_000_000_000
     val pilihan: Long = 1_000_000_000_000_000_000L
 
-
     println(umur)
     println(nilai)
     println(telpon)

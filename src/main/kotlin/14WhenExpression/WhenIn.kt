@@ -1,7 +1,7 @@
 package `14WhenExpression`
 
 fun main() {
-    val finalExam = 'D'
+    val finalExam = 'B'
     val lulus: Array<Char> = arrayOf('A', 'B', 'C')
 
     when(finalExam) {
