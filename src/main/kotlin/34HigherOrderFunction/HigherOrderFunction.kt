@@ -7,4 +7,7 @@ fun main() {
     }
     println(hello("Roynaldi") { value: String -> value.toUpperCase() })
     println(hello("Roynaldi") { value: String -> value.lowercase() })
+
+    val result1 = hello("Roynaldi") { value: String -> value.uppercase()}
+    println(result1)
 }

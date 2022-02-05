@@ -7,7 +7,6 @@ fun main() {
         return "Hello $nameTransform"
     }
 
-
     val upper = fun(value: String): String {
         if (value == "") {
             return "Ups"

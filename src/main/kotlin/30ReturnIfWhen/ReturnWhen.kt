@@ -1,7 +1,7 @@
 package `30ReturnIfWhen`
 
 
-fun Hello(name: String = ""): String {
+fun hello(name: String = ""): String {
     return when (name) {
         "" -> "Hello Bro"
         else -> "Hello $name"
@@ -9,5 +9,5 @@ fun Hello(name: String = ""): String {
 }
 
 fun main() {
-    println(sayHello())
+    println(hello())
 }
